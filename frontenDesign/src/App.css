@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.loginpage{
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    height: 100vh;
+    text-rendering: optimizeLegibility;
+    background-image: url("https://1.bp.blogspot.com/-fd1WXKk-TAc/XyqfngP4PiI/AAAAAAAAVMw/umQz3tkxtg43uPIy8W5og6gAkpCfjaTvACLcBGAsYHQ/w1563-h1563/bg-snell.png");
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.main-container{
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inputbox{
+  box-shadow: 0 4px 8px 0 rgba(248, 247, 247, 0.2), 0 6px 20px 0 rgba(101, 100, 100, 0.19);
+}
+.login{
+  box-shadow: 0 4px 8px 0 rgba(248, 247, 247, 0.2), 0 6px 20px 0 rgba(101, 100, 100, 0.19);
+  
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.inputbox{
+  font-size: 15px;
+}
+
+.chatbot{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: black;
+}
+.header{
+  background-color: black;
+  position: relative;
+ 
+  left: 15px;
+  height: 100vh;
+  width: 100%;
+  /*background-color:white;
+  */color: black;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.Virtualassist{
+  /* background-color: rgb(216, 234, 250); */
+  background-color: white;
+}
+
+
+.Virtualassist{
+  background-color: aliceblue;
+}
+.chatapp{
+  height: 85vh;
+  background-color: black;
+  color: white;
+}

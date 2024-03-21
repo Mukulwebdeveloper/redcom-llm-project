@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+
+}
+.wiki{
+    width: 30px;
+}
+
+.logo-title{
+    float: right;
+    position: relative;
+    right: 70px;
+
+}
+
+.logo-title span{
+  position: relative;
+    right: 55px ;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(6, 2, 45);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.middle{
+    margin-left: 350px;
+   
+}
+.mtop{
+    margin-top: 20px !important;
+}
+.Logout{
+    /* margin-top: 200px !important; */
+    position: fixed;
+    top: 600px;
+    /* left: 30px; */
+    width: 370px;
+}
+.cpointer{
+    cursor: pointer;
+}
+.chatbot-container{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.rightside{
+    position: relative;
+    right: 294px;
+   border-radius: 10px;
+   padding: 5px;
+   background-color: rgb(44, 44, 72);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+
+.user-icon{
+    position: relative;
+    top: 40px;
+    bottom: 5px;
+ padding: 10px;
+ margin-left: 30px;
+ /* margin-top: 90px; */
+    background-color: rgb(37, 26, 82);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+ color: rgba(13, 202, 240, 1);
+}
+.botlogo{
+    position: relative;
+    right: 30px;
+    width: 100px;
+    margin-right: 25px;
+}
+.welcomeuser{
+    /* padding: 5px; */
+    background-color: rgb(37, 26, 82);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.leftbars{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.historydata{
+    font-size: 15px;
+    background-color: rgb(51, 50, 50);
+    color: rgba(13, 202, 240, 1);
+    margin-top: 15px;
+    padding: 5px;
+    overflow-y: hidden;
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.historyscroll{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.rightbars{
+    position: fixed;
+    top: 0;
+    left: 1100px;
+    }
+  
+
+.respmsg{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(37, 26, 82);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.inputbox1{
+    border-radius:10px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:  rgb(14, 38, 59);
+    position: relative;
+    top: 199px;
+    width: 100%;
+    left: 70px;
+    border: 1px solid gray;
+ 
+
+}
+.sendmsg{
+    
+    border-radius:10px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:  rgb(37, 26, 82);
+
+ 
+  
+}
+.sentbox{
+    position: fixed;
+    bottom: 200px;
+    width:32%;
+    /* margin-right: 60px !important; */
+
+
+
+}.btnicon{
+    position: relative;
+    right: -16px;
+    width: 100px;
+    margin-right: 25px;
+}
+
+.btn-dark{
+    border: 1px solid gray;
+}
+
+input{
+  
+    background-color: rgb(14, 38, 59) ;
+    border: none;
+    color: white;
+    width: 95%;
+    padding: 3px;
+    font-size: 15px;
+  
+}
+input::placeholder{
+    font-size: 15px;
+    color:rgb(181, 179, 179);
+}
+.btn-send{
+    color: rgb(181, 179, 179);
+    
+}
+.left-corner{
+    
+    height: 100vh;
+    background-color: rgb(14, 38, 59);
+}
+@media (max-width:768px) {
+    .leftbars{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .rightbars{
+        position: relative;
+        top: 0;
+        
+        }
+        .inputbox1{
+            border-radius:10px;
+            border-radius: 10px;
+            padding: 5px;
+            background-color:  rgb(14, 38, 59);
+            /* position: relative; */
+           
+            /* width: 100%; */
+         
+            border: 1px solid gray;
+         
+        
+        }
+        .sentbox{
+            position: relative;
+            /* bottom: 200px; */
+            width:33%;
+            /* margin-right: 60px !important; */
+        
+        
+        
+        }
+        .middle{
+            position: relative;
+            right: 400px;
+        }
+        .rightside{
+            position: relative;
+            left: 0px;
+            top: 20px;
+          
+        }
+        .user-icon{
+            position: relative;
+            bottom: 0px;
+            top: 0px;
+            right: 55px;
+          
+        }
+        .sentbox{
+            width: 100%;
+            position: relative;
+            right: 40px;
+        }
+        .rightbars{
+            position: relative;
+            top: 20px;
+            left: 0px;
+        }
+}
